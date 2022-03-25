@@ -10,27 +10,46 @@ html {
   box-sizing: inherit;
 }
 
-h1 {
+article {
   color: #222;
+  border: 0;
+}
+
+article header {
+
+}
+
+article h1 {
   font-size: 1.5rem;
   font-family: "Crimson Text", serif;
   font-weight: normal;
 }
 
-header p {
+article header p {
   color: #555;
   font-style: italic;
   font-size: 1.125rem;
   font-family: "Crimson Text", serif;
 }
 
+article p {
+
+}
+
 body {
   margin: 0;
 }
 
-.quote blockquote {
+blockquote {
   color: #999;
-  font-style: italic;
-  font-size: 1.5rem;
-  text-align: center;
+  font-size: 1.125rem;
+  padding-left: .5rem;
+}
+
+.quote {
+  font-size: 1.125rem;
+}
+
+article ol {
+  padding-left: 0;
 }
